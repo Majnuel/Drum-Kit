@@ -1,0 +1,29 @@
+body {
+    background-color: darkslategrey;
+}
+
+.centering {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.key {
+    border: solid;
+    border-radius:5%;
+    border-width: 2px;
+    border-color:aqua;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding: 2px 2px 2px 2px;
+    margin: 5px 5px 5px 5px;
+    background: linear-gradient(45deg, #CCFFFF, #FFCCCC);
+    transition:all 35ms;
+}
+
+.playing {
+    transform:scale(1.1);
+    background: linear-gradient(45deg,  #FFCCCC, #CCFFFF);
+    box-shadow: 0 0 100px yellow;
+}
